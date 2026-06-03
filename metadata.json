@@ -1,0 +1,6 @@
+{
+  "name": "Solução Verde Consultoria Ambiental",
+  "description": "Website institucional, estratégico e funcional da Solução Verde Consultoria e Planejamento Sustentável, focado em engenharia e gestão ambiental de alta performance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
