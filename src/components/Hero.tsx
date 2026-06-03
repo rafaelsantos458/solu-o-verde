@@ -74,24 +74,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               Reformulamos a relação da sua corporação com a regulação e o ecossistema. A Solução Verde simplifica licenciamentos complexos e executa projetos de reflorestamento nativo de altíssima performance.
             </p>
  
-            <div className="flex flex-wrap gap-4 pt-4">
-              <button
-                id="hero-primary-cta"
-                onClick={() => onNavigate('contato')}
-                className="inline-flex items-center justify-center space-x-2 px-7 py-4 rounded-full bg-[#62c234] hover:bg-[#62c234]/90 text-slate-950 font-black text-xs uppercase tracking-wider transition-all shadow-lg shadow-emerald-500/10 cursor-pointer"
-              >
-                <span>Fale Conosco</span>
-                <Phone className="w-4 h-4 fill-slate-950 text-slate-950" />
-              </button>
- 
-              <button
-                id="hero-secondary-cta"
-                onClick={() => onNavigate('servicos')}
-                className="inline-flex items-center justify-center px-7 py-4 rounded-full bg-transparent hover:bg-white/5 text-white font-black text-xs uppercase tracking-wider transition-all border border-slate-700 hover:border-white cursor-pointer"
-              >
-                Nossos Serviços
-              </button>
-            </div>
+
           </div>
  
           {/* Right Image element (Col 5) */}

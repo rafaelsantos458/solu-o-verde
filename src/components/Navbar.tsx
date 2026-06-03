@@ -22,8 +22,7 @@ export default function Navbar({ onNavigate, activeSection }: NavbarProps) {
     { id: 'inicio', label: 'Início' },
     { id: 'sobre', label: 'Sobre Nós' },
     { id: 'servicos', label: 'Serviços' },
-    { id: 'faq', label: 'Dúvidas' },
-    { id: 'contato', label: 'Fale Conosco' }
+    { id: 'faq', label: 'Dúvidas' }
   ];
 
   const handleNavClick = (id: string) => {
@@ -76,7 +75,7 @@ export default function Navbar({ onNavigate, activeSection }: NavbarProps) {
               onClick={() => handleNavClick('contato')}
               className="ml-3 px-5 py-2.5 rounded-full bg-[#62c234] hover:bg-[#52a629] hover:scale-[1.02] text-slate-950 text-xs font-black uppercase tracking-wider transition-all shadow-md shadow-neutral-950/20 cursor-pointer"
             >
-              Falar com Consultores
+              Fale Conosco
             </button>
           </div>
  
@@ -120,7 +119,7 @@ export default function Navbar({ onNavigate, activeSection }: NavbarProps) {
               onClick={() => handleNavClick('contato')}
               className="w-full text-center py-2.5 bg-[#62c234] hover:bg-[#52a629] text-slate-950 font-black text-xs uppercase tracking-wider rounded-full shadow-md transition-colors"
             >
-              Falar com Consultores
+              Fale Conosco
             </button>
           </div>
         </div>
