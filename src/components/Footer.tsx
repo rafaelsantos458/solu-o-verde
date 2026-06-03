@@ -15,8 +15,8 @@ export default function Footer() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-16 border-b border-slate-900">
           
-          {/* Col 1: About Brand (Col 4) */}
-          <div className="lg:col-span-4 space-y-6 text-left">
+          {/* Col 1: About Brand (Col 5) */}
+          <div className="lg:col-span-5 space-y-6 text-left">
             <div className="flex items-center select-none">
               <img 
                 src="https://res.cloudinary.com/dgzkksdzi/image/upload/v1780458053/logo_branca_gvtkh3.png" 
@@ -36,27 +36,8 @@ export default function Footer() {
             </div>
           </div>
  
-          {/* Col 2: Navigation Links (Col 3) */}
-          <div className="lg:col-span-3 text-left space-y-4">
-            <h4 className="text-[10px] uppercase text-[#62c234] font-mono tracking-wider font-bold">Mapa do Site</h4>
-            <ul className="space-y-2.5 text-xs text-slate-400 font-medium">
-              <li>
-                <a href="#inicio" className="hover:text-[#62c234] transition-colors">Início</a>
-              </li>
-              <li>
-                <a href="#sobre" className="hover:text-[#62c234] transition-colors">Sobre o Escritório</a>
-              </li>
-              <li>
-                <a href="#servicos" className="hover:text-[#62c234] transition-colors">Portfólio de Serviços</a>
-              </li>
-              <li>
-                <a href="#faq" className="hover:text-[#62c234] transition-colors">Dúvidas Frequentes</a>
-              </li>
-            </ul>
-          </div>
- 
-          {/* Col 3: Technical Details (Col 3) */}
-          <div className="lg:col-span-3 text-left space-y-4">
+          {/* Col 2: Technical Details (Col 4) */}
+          <div className="lg:col-span-4 text-left space-y-4">
             <h4 className="text-[10px] uppercase text-[#62c234] font-mono tracking-wider font-bold">Responsabilidade Técnica</h4>
             <div className="space-y-3 text-xs text-slate-300 font-light">
               <p>
@@ -72,8 +53,8 @@ export default function Footer() {
             </div>
           </div>
  
-          {/* Col 4: Operating Hours (Col 2) */}
-          <div className="lg:col-span-2 text-left space-y-4">
+          {/* Col 3: Operating Hours (Col 3) */}
+          <div className="lg:col-span-3 text-left space-y-4">
             <h4 className="text-[10px] uppercase text-[#62c234] font-mono tracking-wider font-bold">Expediente</h4>
             <div className="space-y-3 text-xs text-slate-400 font-light">
               <div className="flex items-center space-x-2 text-slate-500">
