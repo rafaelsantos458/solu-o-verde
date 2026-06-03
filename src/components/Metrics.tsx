@@ -95,7 +95,7 @@ export default function Metrics() {
               
               {/* Seedling Image */}
               <img
-                src="/src/assets/images/cupped_hands_seedling_1780456029159.png"
+                src="https://res.cloudinary.com/dgzkksdzi/image/upload/v1780461807/cupped_hands_seedling_1780456029159_mqxgtz.jpg"
                 alt="Cupped hands protecting seedling Solução Verde"
                 className="w-full h-full object-cover rounded-full select-none"
                 referrerPolicy="no-referrer"

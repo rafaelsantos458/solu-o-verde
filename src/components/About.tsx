@@ -32,7 +32,7 @@ export default function About() {
             <div className="relative border-l-[10px] border-[#62c234] rounded-3xl p-4 bg-slate-50/50 shadow-sm overflow-visible max-w-[420px] lg:max-w-none">
               
               <img
-                src="/src/assets/images/about_eco_island_1780456014721.png"
+                src="https://res.cloudinary.com/dgzkksdzi/image/upload/v1780461611/about_eco_island_1780456014721_vcs8ug.jpg"
                 alt="Florestas e soluções sustentabilidade Solução Verde"
                 className="rounded-2xl w-full h-auto object-cover max-h-[385px] filter drop-shadow-sm select-none"
                 referrerPolicy="no-referrer"

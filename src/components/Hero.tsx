@@ -99,7 +99,7 @@ export default function Hero({ onNavigate }: HeroProps) {
             <div className="absolute w-[360px] h-[360px] bg-[#62c234]/5 rounded-full blur-2xl pointer-events-none"></div>
             
             <img
-              src="/src/assets/images/seedling_dark_hero_1780455999931.png"
+              src="https://res.cloudinary.com/dgzkksdzi/image/upload/v1780461609/seedling_dark_hero_1780455999931_ja4mkh.jpg"
               alt="Muda florestal em crescimento Soluções Verdes"
               className="relative max-h-[380px] lg:max-h-[440px] w-auto object-contain rounded-3xl z-10 filter drop-shadow-[0_15px_30px_rgba(98,194,52,0.15)] animate-fadeIn"
               referrerPolicy="no-referrer"
